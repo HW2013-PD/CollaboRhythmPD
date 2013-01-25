@@ -10,6 +10,10 @@ package hw2013PD.plugins.problems.PD.controller
 	import collaboRhythm.shared.pluginsSupport.IPlugin;
 	import collaboRhythm.shared.ui.healthCharts.model.modifiers.IChartModifierFactory;
 
+	import hw2013PD.plugins.problems.PD.model.PDHealthActionInputControllerFactory;
+
+	import hw2013PD.plugins.problems.PD.model.PDHealthActionListViewAdapterFactory;
+
 	import mx.modules.ModuleBase;
 
 	public class PDPluginModule extends ModuleBase implements IPlugin
@@ -26,14 +30,14 @@ package hw2013PD.plugins.problems.PD.controller
 					AppControllerInfo,
 					new AppControllerInfo(PDAppController));
 
-//			componentContainer.registerComponentInstance(ReflectionUtils.getClassInfo(PDHealthActionListViewAdapterFactory).name,
-//					IHealthActionListViewAdapterFactory,
-//					new PDHealthActionListViewAdapterFactory());
-//
-//			componentContainer.registerComponentInstance(ReflectionUtils.getClassInfo(PDHealthActionInputControllerFactory).name,
-//					IHealthActionInputControllerFactory,
-//					new PDHealthActionInputControllerFactory());
-//
+			componentContainer.registerComponentInstance(ReflectionUtils.getClassInfo(PDHealthActionListViewAdapterFactory).name,
+					IHealthActionListViewAdapterFactory,
+					new PDHealthActionListViewAdapterFactory());
+
+			componentContainer.registerComponentInstance(ReflectionUtils.getClassInfo(PDHealthActionInputControllerFactory).name,
+					IHealthActionInputControllerFactory,
+					new PDHealthActionInputControllerFactory());
+
 //			componentContainer.registerComponentInstance(ReflectionUtils.getClassInfo(PDChartModifierFactory).name,
 //					IChartModifierFactory,
 //					new PDChartModifierFactory());
