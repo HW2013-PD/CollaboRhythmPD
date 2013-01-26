@@ -1,38 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--~
-  ~ Copyright 2012 John Moore, Scott Gilroy
-  ~
-  ~ This file is part of CollaboRhythm.
-  ~
-  ~ CollaboRhythm is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
-  ~ License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later
-  ~ version.
-  ~
-  ~ CollaboRhythm is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
-  ~ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
-  ~ details.
-  ~
-  ~ You should have received a copy of the GNU General Public License along with CollaboRhythm.  If not, see
-  ~ <http://www.gnu.org/licenses/>.
-  -->
 <IndivoDocuments xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xmlns:fn="http://www.w3.org/2005/xpath-functions"
                  xmlns:d="http://indivo.org/vocab/xml/documents#">
    <LoadableIndivoDocument>
       <document>
          <MedicationOrder xmlns="http://indivo.org/vocab/xml/documents#">
-            <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
+            <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
             <orderType>prescribed</orderType>
             <orderedBy>jking@records.media.mit.edu</orderedBy>
-            <dateOrdered>2011-07-14T19:13:11Z</dateOrdered>
-            <dateExpires>2012-07-14T09:00:00-04:00</dateExpires>
-            <indication>diabetes</indication>
+            <dateOrdered>2013-01-01T07:13:11Z</dateOrdered>
+            <dateExpires>2013-03-31T09:00:00-04:00</dateExpires>
+            <indication>Parkinson's Disease</indication>
             <amountOrdered>
                <value>90</value>
                <unit type="http://indivo.org/codes/units#" value="tab" abbrev="tab">tablet</unit>
             </amountOrdered>
             <substitutionPermitted>true</substitutionPermitted>
-            <instructions>take with water</instructions>
+            <instructions>Use the tremoCup(c) to take the pill</instructions>
          </MedicationOrder>
       </document>
       <relatesTo>
@@ -40,14 +24,14 @@
             <LoadableIndivoDocument>
                <document>
                   <MedicationFill xmlns="http://indivo.org/vocab/xml/documents#">
-                     <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
+                     <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
                      <filledBy>ljohnson@records.media.mit.edu</filledBy>
-                     <dateFilled>2011-07-14T19:13:11Z</dateFilled>
+                     <dateFilled>2013-01-01T07:13:11Z</dateFilled>
                      <amountFilled>
                         <value>90</value>
                         <unit>tab</unit>
                      </amountFilled>
-                     <ndc>007811452</ndc>
+                     <ndc>000931048</ndc>
                   </MedicationFill>
                </document>
             </LoadableIndivoDocument>
@@ -56,11 +40,11 @@
             <LoadableIndivoDocument>
                <document>
                   <MedicationScheduleItem xmlns="http://indivo.org/vocab/xml/documents#">
-                     <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
+                     <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
                      <scheduledBy>jking@records.media.mit.edu</scheduledBy>
-                     <dateScheduled>2011-07-14T19:13:11Z</dateScheduled>
-                     <dateStart>2011-07-15T13:00:00Z</dateStart>
-                     <dateEnd>2011-07-15T17:00:00Z</dateEnd>
+                     <dateScheduled>2013-01-01T07:13:11Z</dateScheduled>
+                     <dateStart>2013-01-01T08:00:00Z</dateStart>
+                     <dateEnd>2013-01-01T10:00:00Z</dateEnd>
                      <recurrenceRule>
                         <frequency>DAILY</frequency>
                         <count>90</count>
@@ -69,7 +53,7 @@
                         <value>1</value>
                         <unit type="http://indivo.org/codes/units#" value="tab" abbrev="tab">tablet</unit>
                      </dose>
-                     <instructions>take with water</instructions>
+                     <instructions>Use the tremoCup(c) to take the pill</instructions>
                   </MedicationScheduleItem>
                </document>
                <relatesTo>
@@ -77,9 +61,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-15T14:57:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-01T08:57:00Z</dateReported>
                               <recurrenceIndex>0</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -89,10 +73,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-15T14:57:00Z</dateReported>
-                                       <dateAdministered>2011-07-15T14:57:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-01T08:57:00Z</dateReported>
+                                       <dateAdministered>2013-01-01T08:57:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -110,9 +94,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-16T13:07:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-02T09:07:00Z</dateReported>
                               <recurrenceIndex>1</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -122,10 +106,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-16T13:07:00Z</dateReported>
-                                       <dateAdministered>2011-07-16T13:07:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-02T09:07:00Z</dateReported>
+                                       <dateAdministered>2013-01-02T09:07:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -143,9 +127,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-17T13:54:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-03T08:54:00Z</dateReported>
                               <recurrenceIndex>2</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -155,10 +139,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-17T13:54:00Z</dateReported>
-                                       <dateAdministered>2011-07-17T13:54:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-03T08:54:00Z</dateReported>
+                                       <dateAdministered>2013-01-03T08:54:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -176,9 +160,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-18T13:52:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-04T09:52:00Z</dateReported>
                               <recurrenceIndex>3</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -188,10 +172,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-18T13:52:00Z</dateReported>
-                                       <dateAdministered>2011-07-18T13:52:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-04T09:52:00Z</dateReported>
+                                       <dateAdministered>2013-01-04T09:52:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -209,9 +193,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-19T13:48:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-05T08:48:00Z</dateReported>
                               <recurrenceIndex>4</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -221,10 +205,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-19T13:48:00Z</dateReported>
-                                       <dateAdministered>2011-07-19T13:48:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-05T08:48:00Z</dateReported>
+                                       <dateAdministered>2013-01-05T08:48:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -242,9 +226,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-20T14:27:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-06T08:27:00Z</dateReported>
                               <recurrenceIndex>5</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -254,10 +238,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-20T14:27:00Z</dateReported>
-                                       <dateAdministered>2011-07-20T14:27:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-06T08:27:00Z</dateReported>
+                                       <dateAdministered>2013-01-06T08:27:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -275,9 +259,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-21T14:24:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-07T09:24:00Z</dateReported>
                               <recurrenceIndex>6</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -287,10 +271,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-21T14:24:00Z</dateReported>
-                                       <dateAdministered>2011-07-21T14:24:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-07T09:24:00Z</dateReported>
+                                       <dateAdministered>2013-01-07T09:24:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -308,9 +292,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-22T14:14:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-08T09:14:00Z</dateReported>
                               <recurrenceIndex>7</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -320,10 +304,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-22T14:14:00Z</dateReported>
-                                       <dateAdministered>2011-07-22T14:14:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-08T09:14:00Z</dateReported>
+                                       <dateAdministered>2013-01-08T09:14:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -341,9 +325,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-23T14:15:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-09T09:15:00Z</dateReported>
                               <recurrenceIndex>8</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -353,10 +337,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-23T14:15:00Z</dateReported>
-                                       <dateAdministered>2011-07-23T14:15:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-09T09:15:00Z</dateReported>
+                                       <dateAdministered>2013-01-09T09:15:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -374,43 +358,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-24T14:59:00Z</dateReported>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-10T08:59:00Z</dateReported>
                               <recurrenceIndex>9</recurrenceIndex>
-                              <adherence>false</adherence>
-                           </AdherenceItem>
-                        </document>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-25T13:12:00Z</dateReported>
-                              <recurrenceIndex>10</recurrenceIndex>
-                              <adherence>false</adherence>
-                           </AdherenceItem>
-                        </document>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-26T15:26:00Z</dateReported>
-                              <recurrenceIndex>11</recurrenceIndex>
-                              <adherence>false</adherence>
-                           </AdherenceItem>
-                        </document>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-27T13:47:00Z</dateReported>
-                              <recurrenceIndex>12</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -419,10 +370,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-27T13:47:00Z</dateReported>
-                                       <dateAdministered>2011-07-27T13:47:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-10T08:59:00Z</dateReported>
+                                       <dateAdministered>2013-01-10T08:59:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -440,10 +391,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-28T14:12:00Z</dateReported>
-                              <recurrenceIndex>13</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-11T08:12:00Z</dateReported>
+                              <recurrenceIndex>10</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -452,10 +403,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-28T14:12:00Z</dateReported>
-                                       <dateAdministered>2011-07-28T14:12:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-11T08:12:00Z</dateReported>
+                                       <dateAdministered>2013-01-11T08:12:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -473,10 +424,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-29T14:44:00Z</dateReported>
-                              <recurrenceIndex>14</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-12T08:26:00Z</dateReported>
+                              <recurrenceIndex>11</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -485,10 +436,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-29T14:44:00Z</dateReported>
-                                       <dateAdministered>2011-07-29T14:44:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-12T08:26:00Z</dateReported>
+                                       <dateAdministered>2013-01-12T08:26:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -506,10 +457,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-30T14:02:00Z</dateReported>
-                              <recurrenceIndex>15</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-13T08:47:00Z</dateReported>
+                              <recurrenceIndex>12</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -518,10 +469,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-30T14:02:00Z</dateReported>
-                                       <dateAdministered>2011-07-30T14:02:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-13T08:47:00Z</dateReported>
+                                       <dateAdministered>2013-01-13T08:47:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -539,10 +490,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-31T13:24:00Z</dateReported>
-                              <recurrenceIndex>16</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-14T09:12:00Z</dateReported>
+                              <recurrenceIndex>13</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -551,10 +502,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-07-31T13:24:00Z</dateReported>
-                                       <dateAdministered>2011-07-31T13:24:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-14T09:12:00Z</dateReported>
+                                       <dateAdministered>2013-01-14T09:12:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -572,10 +523,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-01T15:22:00Z</dateReported>
-                              <recurrenceIndex>17</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-15T09:44:00Z</dateReported>
+                              <recurrenceIndex>14</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -584,10 +535,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-01T15:22:00Z</dateReported>
-                                       <dateAdministered>2011-08-01T15:22:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-15T09:44:00Z</dateReported>
+                                       <dateAdministered>2013-01-15T09:44:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -605,10 +556,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-02T15:00:00Z</dateReported>
-                              <recurrenceIndex>18</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-16T09:02:00Z</dateReported>
+                              <recurrenceIndex>15</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -617,10 +568,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-02T15:00:00Z</dateReported>
-                                       <dateAdministered>2011-08-02T15:00:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-16T09:02:00Z</dateReported>
+                                       <dateAdministered>2013-01-16T09:02:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -638,10 +589,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-03T13:53:00Z</dateReported>
-                              <recurrenceIndex>19</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-17T08:24:00Z</dateReported>
+                              <recurrenceIndex>16</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -650,10 +601,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-03T13:53:00Z</dateReported>
-                                       <dateAdministered>2011-08-03T13:53:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-17T08:24:00Z</dateReported>
+                                       <dateAdministered>2013-01-17T08:24:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -671,10 +622,21 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-04T14:00:00Z</dateReported>
-                              <recurrenceIndex>20</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-18T11:22:00Z</dateReported>
+                              <recurrenceIndex>17</recurrenceIndex>
+                              <adherence>false</adherence>
+                           </AdherenceItem>
+                        </document>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-19T09:00:00Z</dateReported>
+                              <recurrenceIndex>18</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -683,10 +645,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-04T14:00:00Z</dateReported>
-                                       <dateAdministered>2011-08-04T14:00:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-19T10:00:00Z</dateReported>
+                                       <dateAdministered>2013-01-19T10:00:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -704,10 +666,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-05T13:54:00Z</dateReported>
-                              <recurrenceIndex>21</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-20T08:54:00Z</dateReported>
+                              <recurrenceIndex>19</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -716,10 +678,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-05T13:54:00Z</dateReported>
-                                       <dateAdministered>2011-08-05T13:54:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-20T08:54:00Z</dateReported>
+                                       <dateAdministered>2013-01-20T08:54:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -737,10 +699,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-06T13:14:00Z</dateReported>
-                              <recurrenceIndex>22</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-21T08:14:00Z</dateReported>
+                              <recurrenceIndex>20</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -749,10 +711,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-06T13:14:00Z</dateReported>
-                                       <dateAdministered>2011-08-06T13:14:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-21T08:14:00Z</dateReported>
+                                       <dateAdministered>2013-01-21T08:14:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -770,43 +732,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-07T13:00:00Z</dateReported>
-                              <recurrenceIndex>23</recurrenceIndex>
-                              <adherence>false</adherence>
-                           </AdherenceItem>
-                        </document>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-08T13:10:00Z</dateReported>
-                              <recurrenceIndex>24</recurrenceIndex>
-                              <adherence>false</adherence>
-                           </AdherenceItem>
-                        </document>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-09T13:18:00Z</dateReported>
-                              <recurrenceIndex>25</recurrenceIndex>
-                              <adherence>false</adherence>
-                           </AdherenceItem>
-                        </document>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-10T13:29:00Z</dateReported>
-                              <recurrenceIndex>26</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-22T09:29:00Z</dateReported>
+                              <recurrenceIndex>21</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -815,10 +744,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-10T13:29:00Z</dateReported>
-                                       <dateAdministered>2011-08-10T13:29:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-22T09:29:00Z</dateReported>
+                                       <dateAdministered>2013-01-22T09:29:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -836,10 +765,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-11T13:40:00Z</dateReported>
-                              <recurrenceIndex>27</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-23T08:40:00Z</dateReported>
+                              <recurrenceIndex>22</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -848,10 +777,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-11T13:40:00Z</dateReported>
-                                       <dateAdministered>2011-08-11T13:40:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-23T08:40:00Z</dateReported>
+                                       <dateAdministered>2013-01-23T08:40:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>
@@ -869,10 +798,10 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                              <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-12T13:51:00Z</dateReported>
-                              <recurrenceIndex>28</recurrenceIndex>
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                              <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-24T08:51:00Z</dateReported>
+                              <recurrenceIndex>23</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
                         </document>
@@ -881,10 +810,10 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310490">Glipizide 5 MG Oral Tablet</name>
-                                       <reportedBy>csantos@records.media.mit.edu</reportedBy>
-                                       <dateReported>2011-08-12T13:51:00Z</dateReported>
-                                       <dateAdministered>2011-08-12T13:51:00Z</dateAdministered>
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861007">Levodopa 100 MG Oral Tablet</name>
+                                       <reportedBy>jplum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-24T08:51:00Z</dateReported>
+                                       <dateAdministered>2013-01-24T08:51:00Z</dateAdministered>
                                        <amountAdministered>
                                           <value>1</value>
                                           <unit>tablet</unit>

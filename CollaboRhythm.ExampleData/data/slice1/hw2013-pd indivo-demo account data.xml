@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataroot>
+  
+  <indivoServerBaseURL>https://indivo-demo.media.mit.edu:8000</indivoServerBaseURL>
+  
+  <AccountSource>
+    
+    <accountId>example-clinician@records.media.mit.edu</accountId>
+    
+    <contactEmail>not_used@localhost</contactEmail>
+    
+    <fullName>Example Clinician</fullName>
+    
+    <username>example-clinician</username>
+    
+    <password>example-clinician</password>
+    
+    <givenName>Example</givenName>
+    
+    <familyName>Clinician</familyName>
+    
+    <streetAddress>1066 Spinel Rd</streetAddress>
+    
+    <postalCode>2142</postalCode>
+    
+    <locality>Cambridge</locality>
+    
+    <region>Massachusetts</region>
+    
+    <country>US</country>
+    
+    <timeZone>-5GMT</timeZone>
+    
+    <emailPersonal>example-clinician@records.media.mit.edu</emailPersonal>
+    
+    <phoneNumberHome>1-555-555-6548</phoneNumberHome>
+    
+    <phoneNumberWork>1-555-555-8654</phoneNumberWork>
+    
+    <instantMessengerName>example-clinician@records.media.mit.edu</instantMessengerName>
+    
+    <dateOfBirth>1957-03-29T00:00:00Z</dateOfBirth>
+    
+    <age>53</age>
+    
+    <gender>Male</gender>
+    
+    <ethnicity>White</ethnicity>
+    
+    <language>English</language>
+    
+    <maritalStatus>Married</maritalStatus>
+    
+    <employmentStatus>Employed</employmentStatus>
+    
+    <employmentIndustry>Medical</employmentIndustry>
+    
+    <occupation>Doctor</occupation>
+    
+    <religion>Protestant</religion>
+    
+    <highestEducation>University</highestEducation>
+    
+    <organDonar>true</organDonar>
+    
+    <recordId>Please do not use this account</recordId>
+    
+    <status/>
+    
+    <accessKey/>
+    
+    <accessSecret/>
+    
+    <demographicsId/>
+    
+    <notes>Use "Account -&gt; Duplicate Account Source" to make your own account based on this one</notes>
+    
+    <recordSeed/>
+    
+    <mode>clinician</mode>
+    
+  </AccountSource>
+  
+  <AccountSource>
+    
+    <accountId>example-patient@records.media.mit.edu</accountId>
+    
+    <contactEmail>not_used@localhost</contactEmail>
+    
+    <fullName>Example Patient</fullName>
+    
+    <username>example-patient</username>
+    
+    <password>example-patient</password>
+    
+    <givenName>Example</givenName>
+    
+    <familyName>Patient</familyName>
+    
+    <streetAddress>84 Spruce Street</streetAddress>
+    
+    <postalCode>2215</postalCode>
+    
+    <locality>Boston</locality>
+    
+    <region>Massachusetts</region>
+    
+    <country>US</country>
+    
+    <timeZone>-5GMT</timeZone>
+    
+    <emailPersonal>example-patient@records.media.mit.edu</emailPersonal>
+    
+    <phoneNumberHome>1-555-555-6548</phoneNumberHome>
+    
+    <phoneNumberWork>1-555-555-8654</phoneNumberWork>
+    
+    <instantMessengerName>example-patient@records.media.mit.edu</instantMessengerName>
+    
+    <dateOfBirth>1940-02-24T00:00:00Z</dateOfBirth>
+    
+    <age>70</age>
+    
+    <gender>Female</gender>
+    
+    <ethnicity>White</ethnicity>
+    
+    <language>English</language>
+    
+    <maritalStatus>Widowed</maritalStatus>
+    
+    <employmentStatus>Retired</employmentStatus>
+    
+    <employmentIndustry>Education</employmentIndustry>
+    
+    <occupation>Teacher</occupation>
+    
+    <religion>Protestant</religion>
+    
+    <highestEducation>University</highestEducation>
+    
+    <organDonar>true</organDonar>
+    
+    <recordId>Please do not use this account</recordId>
+    
+    <accessKey/>
+    
+    <accessSecret/>
+    
+    <status/>
+    
+    <demographicsId>18124489-3b91-45bd-90a9-375a520eca26</demographicsId>
+    
+    <recordSeed/>
+    
+    <shareAccountId>example-clinician@records.media.mit.edu</shareAccountId>
+    
+    <notes>Use "Account -&gt; Duplicate Account Source" to make your own account based on this one</notes>
+    
+    <shareRole>Coach</shareRole>
+    
+    <documentsDirectory>mbrooks</documentsDirectory>
+    
+    <mode>patient</mode>
+    
+  </AccountSource>
+  
+  <AccountSource>
+    
+    <accountId>pd-jking@records.media.mit.edu</accountId>
+    
+    <contactEmail>not_used@localhost</contactEmail>
+    
+    <fullName>James King</fullName>
+    
+    <username>pd-jking-clinician</username>
+    
+    <password>example-clinician</password>
+    
+    <givenName>James</givenName>
+    
+    <familyName>King</familyName>
+    
+    <streetAddress>1066 Spinel Rd</streetAddress>
+    
+    <postalCode>2142</postalCode>
+    
+    <locality>Cambridge</locality>
+    
+    <region>Massachusetts</region>
+    
+    <country>US</country>
+    
+    <timeZone>-5GMT</timeZone>
+    
+    <emailPersonal>example-clinician@records.media.mit.edu</emailPersonal>
+    
+    <phoneNumberHome>1-555-555-6548</phoneNumberHome>
+    
+    <phoneNumberWork>1-555-555-8654</phoneNumberWork>
+    
+    <instantMessengerName>example-clinician@records.media.mit.edu</instantMessengerName>
+    
+    <dateOfBirth>1957-03-29T00:00:00Z</dateOfBirth>
+    
+    <age>53</age>
+    
+    <gender>Male</gender>
+    
+    <ethnicity>White</ethnicity>
+    
+    <language>English</language>
+    
+    <maritalStatus>Married</maritalStatus>
+    
+    <employmentStatus>Employed</employmentStatus>
+    
+    <employmentIndustry>Medical</employmentIndustry>
+    
+    <occupation>Doctor</occupation>
+    
+    <religion>Protestant</religion>
+    
+    <highestEducation>University</highestEducation>
+    
+    <organDonar>true</organDonar>
+    
+    <recordId>7344566b-6896-4cdd-951a-e5c309c464a5</recordId>
+    
+    <status>Demographics document created. Id: fae15ad9-ccce-45ce-80e5-668b51c6804e</status>
+    
+    <accessKey>hQolw6viLaTnet5SCgD8</accessKey>
+    
+    <accessSecret>9CNg7rdOSQBOhR0ibFM2</accessSecret>
+    
+    <demographicsId>fae15ad9-ccce-45ce-80e5-668b51c6804e</demographicsId>
+    
+    <notes/>
+    
+    <recordSeed/>
+    
+    <mode>clinician</mode>
+    
+  </AccountSource>
+  
+  <AccountSource>
+    
+    <accountId>pd-jplum@records.media.mit.edu</accountId>
+    
+    <contactEmail>not_used@localhost</contactEmail>
+    
+    <fullName>John Plum</fullName>
+    
+    <username>pd-jplum-patient</username>
+    
+    <password>example-patient</password>
+    
+    <givenName>John</givenName>
+    
+    <familyName>Plum</familyName>
+    
+    <streetAddress>84 Spruce Street</streetAddress>
+    
+    <postalCode>2215</postalCode>
+    
+    <locality>Boston</locality>
+    
+    <region>Massachusetts</region>
+    
+    <country>US</country>
+    
+    <timeZone>-5GMT</timeZone>
+    
+    <emailPersonal>example-patient@records.media.mit.edu</emailPersonal>
+    
+    <phoneNumberHome>1-555-555-6548</phoneNumberHome>
+    
+    <phoneNumberWork>1-555-555-8654</phoneNumberWork>
+    
+    <instantMessengerName>example-patient@records.media.mit.edu</instantMessengerName>
+    
+    <dateOfBirth>1940-02-24T00:00:00Z</dateOfBirth>
+    
+    <age>70</age>
+    
+    <gender>Female</gender>
+    
+    <ethnicity>White</ethnicity>
+    
+    <language>English</language>
+    
+    <maritalStatus>Widowed</maritalStatus>
+    
+    <employmentStatus>Retired</employmentStatus>
+    
+    <employmentIndustry>Education</employmentIndustry>
+    
+    <occupation>Teacher</occupation>
+    
+    <religion>Protestant</religion>
+    
+    <highestEducation>University</highestEducation>
+    
+    <organDonar>true</organDonar>
+    
+    <recordId>772de068-6fee-4af8-b8d8-8e09c83a37e6</recordId>
+    
+    <accessKey>h3MDWo9I8Ab5mkM3LC3Z</accessKey>
+    
+    <accessSecret>wgMAQxNCfJEPiT3f3bnW</accessSecret>
+    
+    <status>Created 110/110 documents, 106/107 relationships</status>
+    
+    <demographicsId>2ae49f03-4f6b-49c3-a6ab-ee86f0d3de14</demographicsId>
+    
+    <recordSeed>1</recordSeed>
+    
+    <shareAccountId>pd-jking@records.media.mit.edu</shareAccountId>
+    
+    <notes/>
+    
+    <shareRole>Coach</shareRole>
+    
+    <documentsDirectory>jplum</documentsDirectory>
+    
+    <mode>patient</mode>
+    
+  </AccountSource>
+  
+</dataroot>

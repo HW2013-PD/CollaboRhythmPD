@@ -18,12 +18,12 @@
 <settings xmlns="http://collaborhythm.org/application/settings">
 	<mode>patient</mode>
 	<indivoServerBaseURL>https://indivo-demo.media.mit.edu:8000</indivoServerBaseURL>
-	<username>shared-csantos</username>
-	<password>shared-csantos</password>
+	<username>pd-jplum-patient</username>
+	<password>example-patient</password>
 	<clinicianTeamMembers>
-		<clinicianTeamMember>shared-jking@records.media.mit.edu</clinicianTeamMember>
+		<clinicianTeamMember>pd-jking-clinician@records.media.mit.edu</clinicianTeamMember>
 	</clinicianTeamMembers>
-	<primaryClinicianTeamMember>shared-jking@records.media.mit.edu</primaryClinicianTeamMember>
+	<primaryClinicianTeamMember>pd-jking-clinician@records.media.mit.edu</primaryClinicianTeamMember>
 	<useFileTarget>true</useFileTarget>
 	<useTraceTarget>true</useTraceTarget>
 	<useSyslogTarget>false</useSyslogTarget>
