@@ -10,7 +10,7 @@ package hw2013PD.plugins.problems.PD.model
 
 	import flash.net.URLVariables;
 
-	import hw2013PD.plugins.problems.PD.controller.RehabilitationGloveHealthHealthActionInputController;
+	import hw2013PD.plugins.problems.PD.controller.RehabilitationGloveSessionHealthActionInputController;
 
 	import spark.components.ViewNavigator;
 
@@ -32,7 +32,7 @@ package hw2013PD.plugins.problems.PD.model
 		{
 			if (healthAction.name == PDModel.REHABILITATION_GLOVE_SESSION_HEALTH_ACTION)
 			{
-				return new RehabilitationGloveHealthHealthActionInputController(scheduleItemOccurrence,
+				return new RehabilitationGloveSessionHealthActionInputController(scheduleItemOccurrence,
 						healthActionModelDetailsProvider, scheduleCollectionsProvider, viewNavigator);
 			}
 			return currentHealthActionInputController;

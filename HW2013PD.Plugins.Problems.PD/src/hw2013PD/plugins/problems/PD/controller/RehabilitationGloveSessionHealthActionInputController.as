@@ -16,12 +16,12 @@ package hw2013PD.plugins.problems.PD.controller
 
 	import collaboRhythm.plugins.schedule.shared.model.IHealthActionInputController;
 
-	public class RehabilitationGloveHealthHealthActionInputController implements IHealthActionInputController
+	public class RehabilitationGloveSessionHealthActionInputController implements IHealthActionInputController
 	{
 		private var _rehabilitationGloveSessionModel:RehabilitationGloveSessionModel;
 		private var _viewNavigator:ViewNavigator;
 
-		public function RehabilitationGloveHealthHealthActionInputController(scheduleItemOccurrence:ScheduleItemOccurrence,
+		public function RehabilitationGloveSessionHealthActionInputController(scheduleItemOccurrence:ScheduleItemOccurrence,
 																			 healthActionModelDetailsProvider:IHealthActionModelDetailsProvider,
 																			 scheduleCollectionsProvider:IScheduleCollectionsProvider,
 																			 viewNavigator:ViewNavigator)

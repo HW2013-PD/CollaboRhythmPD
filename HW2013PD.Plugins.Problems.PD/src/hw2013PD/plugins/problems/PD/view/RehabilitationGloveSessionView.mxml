@@ -22,11 +22,11 @@
 	<fx:Script><![CDATA[
 		import collaboRhythm.shared.collaboration.model.CollaborationLobbyNetConnectionServiceProxy;
 
-		import hw2013PD.plugins.problems.PD.controller.RehabilitationGloveHealthHealthActionInputController;
+		import hw2013PD.plugins.problems.PD.controller.RehabilitationGloveSessionHealthActionInputController;
 		import hw2013PD.plugins.problems.PD.model.RehabilitationGloveSessionModel;
 
 		[Bindable]
-		private var _controller:RehabilitationGloveHealthHealthActionInputController;
+		private var _controller:RehabilitationGloveSessionHealthActionInputController;
 		private var _model:RehabilitationGloveSessionModel;
 		private var _collaborationLobbyNetConnectionServiceProxy:CollaborationLobbyNetConnectionServiceProxy;
 
@@ -34,7 +34,7 @@
 		{
 			super.data = value;
 
-			_controller = value as RehabilitationGloveHealthHealthActionInputController;
+			_controller = value as RehabilitationGloveSessionHealthActionInputController;
 			_model = _controller.model;
 		}
 		]]></fx:Script>
