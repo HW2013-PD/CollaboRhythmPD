@@ -4,6 +4,7 @@ package collaboRhythm.plugins.medications.model
 	import collaboRhythm.shared.model.RecurrenceRule;
 	import collaboRhythm.shared.model.healthRecord.CodedValue;
 	import collaboRhythm.shared.model.healthRecord.document.HealthActionPlan;
+	import collaboRhythm.shared.model.healthRecord.document.HealthActionResult;
 	import collaboRhythm.shared.model.healthRecord.document.HealthActionSchedule;
 	import collaboRhythm.shared.model.healthRecord.document.MedicationAdministration;
 	import collaboRhythm.shared.model.healthRecord.document.ScheduleItemBase;
@@ -95,8 +96,8 @@ package collaboRhythm.plugins.medications.model
 			_healthActionModelDetailsProvider.record.addDocument(rehabilitationGloveSessionHealthActionPlan, initiatedLocally);
 			_healthActionModelDetailsProvider.record.addDocument(rehabilitationGloveSessionHealthActionSchedule, initiatedLocally);
 			_healthActionModelDetailsProvider.record.addRelationship(ScheduleItemBase.RELATION_TYPE_HEALTH_ACTION_SCHEDULE, rehabilitationGloveSessionHealthActionPlan, rehabilitationGloveSessionHealthActionSchedule, initiatedLocally);
-			_healthActionModelDetailsProvider.record.addRelationship(ScheduleItemBase.RELATION_TYPE_SCHEDULE_ITEM, rehabilitationGloveSessionHealthActionSchedule, rehabilitationGloveSessionHealthActionPlan, initiatedLocally);
-
+			//_healthActionModelDetailsProvider.record.addRelationship(ScheduleItemBase.RELATION_TYPE_SCHEDULE_ITEM, rehabilitationGloveSessionHealthActionSchedule, rehabilitationGloveSessionHealthActionPlan, initiatedLocally);
+			_healthActionModelDetailsProvider.record.addRelationship(HealthActionResult.RELATION_TYPE_TRIGGERED_HEALTH_ACTION_RESULT, _triggeringMedicationAdministration, rehabilitationGloveSessionHealthActionPlan, initiatedLocally);
 		}
 
 		private function getScheduleDateStart():Date
