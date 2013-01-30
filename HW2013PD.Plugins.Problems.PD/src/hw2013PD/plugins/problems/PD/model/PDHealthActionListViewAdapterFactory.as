@@ -29,12 +29,15 @@ package hw2013PD.plugins.problems.PD.model
 		{
 			var healthActionSchedule:HealthActionSchedule = scheduleItemOccurrence.scheduleItem as HealthActionSchedule;
 			// TODO: perform additional check(s) to ensure that this healthActionSchedule is a PD health action; we must avoid creating/modifying the adapter for other health action schedules 
-			if (healthActionSchedule && healthActionSchedule.scheduledHealthAction is HealthActionPlan &&
-					healthActionModelDetailsProvider.record )
+			if (healthActionSchedule && healthActionSchedule.scheduledEquipment && healthActionModelDetailsProvider.record )
 			{
 				if (healthActionSchedule.name.text == PDModel.REHABILITATION_GLOVE_SESSION_HEALTH_ACTION)
 				{
 					return new RehabilitationGloveSessionListViewAdapter(scheduleItemOccurrence, healthActionModelDetailsProvider);
+				}
+				else (healthActionSchedule.name.text = PDModel.TREMO_CUP_HEALTH_ACTION)
+				{
+					return new TremoCupListViewAdapter(scheduleItemOccurrence, healthActionModelDetailsProvider);
 				}
 			}
 

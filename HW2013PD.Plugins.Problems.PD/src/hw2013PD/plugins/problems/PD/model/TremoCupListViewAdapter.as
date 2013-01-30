@@ -15,28 +15,28 @@ package hw2013PD.plugins.problems.PD.model
 	import spark.components.Button;
 
 	import spark.components.Image;
-	import spark.skins.spark.ImageSkin;
+	import spark.skins.mobile.ImageSkin;
 
-	public class RehabilitationGloveSessionListViewAdapter implements IHealthActionListViewAdapter
+	public class TremoCupListViewAdapter implements IHealthActionListViewAdapter
 	{
-		[Embed(source="/assets/images/rehabilitationGlove.jpg")]
-		public var rehabilitationGloveImageClass:Class;
+		[Embed(source="/assets/images/tremoCupSmall.png")]
+		public var tremoCupImageClass:Class;
 
 		private var _scheduleItemOccurrence:ScheduleItemOccurrence;
 		private var _healthActionSchedule:HealthActionSchedule;
-		private var _rehabilitationGloveHealthAction:HealthActionBase;
+		private var _tremoCupHealthAction:HealthActionBase;
 		private var _model:HealthActionListViewModelBase;
 		private var _controller:HealthActionListViewControllerBase;
-
-		public function RehabilitationGloveSessionListViewAdapter(scheduleItemOccurrence:ScheduleItemOccurrence,
-													  healthActionModelDetailsProvider:IHealthActionModelDetailsProvider)
+		public function TremoCupListViewAdapter(scheduleItemOccurrence:ScheduleItemOccurrence,
+												healthActionModelDetailsProvider:IHealthActionModelDetailsProvider)
 		{
+
 			if (scheduleItemOccurrence)
 			{
 				_scheduleItemOccurrence = scheduleItemOccurrence;
 				_healthActionSchedule = scheduleItemOccurrence.scheduleItem as HealthActionSchedule;
 
-				_rehabilitationGloveHealthAction = new HealthActionBase(PDModel.REHABILITATION_GLOVE_SESSION_HEALTH_ACTION, _healthActionSchedule.name.text);
+				_tremoCupHealthAction = new HealthActionBase(PDModel.TREMO_CUP_HEALTH_ACTION, _healthActionSchedule.name.text);
 
 				_model = new HealthActionListViewModelBase(scheduleItemOccurrence, healthActionModelDetailsProvider);
 			}
@@ -44,14 +44,14 @@ package hw2013PD.plugins.problems.PD.model
 
 		public function get healthAction():HealthActionBase
 		{
-			return _rehabilitationGloveHealthAction;
+			return _tremoCupHealthAction;
 		}
 
 		public function createImage():Image
 		{
 			var rehabilitationGloveImage:Image = new Image();
 			rehabilitationGloveImage.setStyle("skinClass", ImageSkin);
-			rehabilitationGloveImage.source = rehabilitationGloveImageClass;
+			rehabilitationGloveImage.source = tremoCupImageClass;
 
 			return rehabilitationGloveImage;
 		}
@@ -63,7 +63,7 @@ package hw2013PD.plugins.problems.PD.model
 
 		public function get name():String
 		{
-			return _rehabilitationGloveHealthAction.name;
+			return _healthActionSchedule.name.text;
 		}
 
 		public function get description():String
