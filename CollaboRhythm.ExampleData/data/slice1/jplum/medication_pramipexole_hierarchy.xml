@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndivoDocuments xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                 xmlns:d="http://indivo.org/vocab/xml/documents#">
+   <LoadableIndivoDocument>
+      <document>
+         <MedicationOrder xmlns="http://indivo.org/vocab/xml/documents#">
+            <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+            <orderType>prescribed</orderType>
+            <orderedBy>jking@records.media.mit.edu</orderedBy>
+            <dateOrdered>2013-01-01T07:13:11Z</dateOrdered>
+            <dateExpires>2013-03-31T23:59:59Z</dateExpires>
+            <indication>Parkinson's Disease</indication>
+            <amountOrdered>
+               <value>90</value>
+               <unit type="http://indivo.org/codes/units#" value="tab" abbrev="tab">tablet</unit>
+            </amountOrdered>
+            <substitutionPermitted>true</substitutionPermitted>
+            <instructions>Use the tremoCup(c) to take the pill</instructions>
+         </MedicationOrder>
+      </document>
+      <relatesTo>
+         <relation type="medicationFill">
+            <LoadableIndivoDocument>
+               <document>
+                  <MedicationFill xmlns="http://indivo.org/vocab/xml/documents#">
+                     <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                     <filledBy>ljohnson@records.media.mit.edu</filledBy>
+                     <dateFilled>2013-01-01T07:13:11Z</dateFilled>
+                     <amountFilled>
+                        <value>90</value>
+                        <unit>tab</unit>
+                     </amountFilled>
+                     <ndc>000931049</ndc>
+                  </MedicationFill>
+               </document>
+            </LoadableIndivoDocument>
+         </relation>
+         <relation type="scheduleItem">
+            <LoadableIndivoDocument>
+               <document>
+                  <MedicationScheduleItem xmlns="http://indivo.org/vocab/xml/documents#">
+                     <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                     <scheduledBy>jking@records.media.mit.edu</scheduledBy>
+                     <dateScheduled>2013-01-01T07:13:11Z</dateScheduled>
+                     <dateStart>2013-01-01T13:00:00Z</dateStart>
+                     <dateEnd>2013-01-01T15:00:00Z</dateEnd>
+                     <recurrenceRule>
+                        <frequency>DAILY</frequency>
+                        <count>90</count>
+                     </recurrenceRule>
+                     <dose>
+                        <value>1</value>
+                        <unit type="http://indivo.org/codes/units#" value="tab" abbrev="tab">tablet</unit>
+                     </dose>
+                     <instructions>Use the tremoCup(c) to take the pill</instructions>
+                  </MedicationScheduleItem>
+               </document>
+               <relatesTo>
+                  <relation type="adherenceItem">
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-01T13:10:57Z</dateReported>
+                              <recurrenceIndex>0</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-01T13:10:57Z</dateReported>
+                                       <dateAdministered>2013-01-01T13:10:57Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>89</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-02T13:11:53Z</dateReported>
+                              <recurrenceIndex>1</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-02T13:11:53Z</dateReported>
+                                       <dateAdministered>2013-01-02T13:11:53Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>88</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-03T13:42:49Z</dateReported>
+                              <recurrenceIndex>2</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-03T13:42:49Z</dateReported>
+                                       <dateAdministered>2013-01-03T13:42:49Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>87</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-04T14:27:42Z</dateReported>
+                              <recurrenceIndex>3</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-04T14:27:42Z</dateReported>
+                                       <dateAdministered>2013-01-04T14:27:42Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>86</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-05T14:55:10Z</dateReported>
+                              <recurrenceIndex>4</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-05T14:55:10Z</dateReported>
+                                       <dateAdministered>2013-01-05T14:55:10Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>85</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-06T13:31:52Z</dateReported>
+                              <recurrenceIndex>5</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-06T13:31:52Z</dateReported>
+                                       <dateAdministered>2013-01-06T13:31:52Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>84</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-07T14:23:29Z</dateReported>
+                              <recurrenceIndex>6</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-07T14:23:29Z</dateReported>
+                                       <dateAdministered>2013-01-07T14:23:29Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>83</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-08T14:49:29Z</dateReported>
+                              <recurrenceIndex>7</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-08T14:49:29Z</dateReported>
+                                       <dateAdministered>2013-01-08T14:49:29Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>82</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-09T13:53:14Z</dateReported>
+                              <recurrenceIndex>8</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-09T13:53:14Z</dateReported>
+                                       <dateAdministered>2013-01-09T13:53:14Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>81</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-10T13:13:34Z</dateReported>
+                              <recurrenceIndex>9</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-10T13:13:34Z</dateReported>
+                                       <dateAdministered>2013-01-10T13:13:34Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>80</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-11T13:47:24Z</dateReported>
+                              <recurrenceIndex>10</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-11T13:47:24Z</dateReported>
+                                       <dateAdministered>2013-01-11T13:47:24Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>79</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-12T13:24:47Z</dateReported>
+                              <recurrenceIndex>11</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-12T13:24:47Z</dateReported>
+                                       <dateAdministered>2013-01-12T13:24:47Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>78</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-13T14:14:57Z</dateReported>
+                              <recurrenceIndex>12</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-13T14:14:57Z</dateReported>
+                                       <dateAdministered>2013-01-13T14:14:57Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>77</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-14T13:31:19Z</dateReported>
+                              <recurrenceIndex>13</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-14T13:31:19Z</dateReported>
+                                       <dateAdministered>2013-01-14T13:31:19Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>76</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-15T13:28:55Z</dateReported>
+                              <recurrenceIndex>14</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-15T13:28:55Z</dateReported>
+                                       <dateAdministered>2013-01-15T13:28:55Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>75</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-16T14:50:24Z</dateReported>
+                              <recurrenceIndex>15</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-16T14:50:24Z</dateReported>
+                                       <dateAdministered>2013-01-16T14:50:24Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>74</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-17T14:57:53Z</dateReported>
+                              <recurrenceIndex>16</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-17T14:57:53Z</dateReported>
+                                       <dateAdministered>2013-01-17T14:57:53Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>73</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-18T14:46:16Z</dateReported>
+                              <recurrenceIndex>17</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-18T14:46:16Z</dateReported>
+                                       <dateAdministered>2013-01-18T14:46:16Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>72</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-19T14:12:42Z</dateReported>
+                              <recurrenceIndex>18</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-19T14:12:42Z</dateReported>
+                                       <dateAdministered>2013-01-19T14:12:42Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>71</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-20T13:29:20Z</dateReported>
+                              <recurrenceIndex>19</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-20T13:29:20Z</dateReported>
+                                       <dateAdministered>2013-01-20T13:29:20Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>70</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-21T14:29:29Z</dateReported>
+                              <recurrenceIndex>20</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-21T14:29:29Z</dateReported>
+                                       <dateAdministered>2013-01-21T14:29:29Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>69</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-22T14:58:12Z</dateReported>
+                              <recurrenceIndex>21</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-22T14:58:12Z</dateReported>
+                                       <dateAdministered>2013-01-22T14:58:12Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>68</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-23T14:31:34Z</dateReported>
+                              <recurrenceIndex>22</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-23T14:31:34Z</dateReported>
+                                       <dateAdministered>2013-01-23T14:31:34Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>67</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-24T13:39:26Z</dateReported>
+                              <recurrenceIndex>23</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-24T13:39:26Z</dateReported>
+                                       <dateAdministered>2013-01-24T13:39:26Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>66</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-25T14:31:49Z</dateReported>
+                              <recurrenceIndex>24</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-25T14:31:49Z</dateReported>
+                                       <dateAdministered>2013-01-25T14:31:49Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>65</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-26T13:16:48Z</dateReported>
+                              <recurrenceIndex>25</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-26T13:16:48Z</dateReported>
+                                       <dateAdministered>2013-01-26T13:16:48Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>64</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                              <reportedBy>plum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-27T13:56:28Z</dateReported>
+                              <recurrenceIndex>26</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <MedicationAdministration xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="861008">Pramipexole 3.15 MG Oral Tablet</name>
+                                       <reportedBy>plum@records.media.mit.edu</reportedBy>
+                                       <dateReported>2013-01-27T13:56:28Z</dateReported>
+                                       <dateAdministered>2013-01-27T13:56:28Z</dateAdministered>
+                                       <amountAdministered>
+                                          <value>1</value>
+                                          <unit>tablet</unit>
+                                       </amountAdministered>
+                                       <amountRemaining>
+                                          <value>63</value>
+                                          <unit>tablet</unit>
+                                       </amountRemaining>
+                                    </MedicationAdministration>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                  </relation>
+               </relatesTo>
+            </LoadableIndivoDocument>
+         </relation>
+	  </relatesTo>
+   </LoadableIndivoDocument>
+</IndivoDocuments>

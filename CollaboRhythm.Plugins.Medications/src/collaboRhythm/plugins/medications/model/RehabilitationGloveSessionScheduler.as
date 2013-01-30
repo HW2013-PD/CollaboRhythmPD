@@ -105,5 +105,9 @@ package collaboRhythm.plugins.medications.model
 			return new Date(_triggeringMedicationAdministration.dateAdministered.valueOf() + MILLISECONDS_IN_TWO_HOURS);
 		}
 
+		public function medicationShouldTriggerSession():Boolean
+		{
+			return false;
+		}
 	}
 }

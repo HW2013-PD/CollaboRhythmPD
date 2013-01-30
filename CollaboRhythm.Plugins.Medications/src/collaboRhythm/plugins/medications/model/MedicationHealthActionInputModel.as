@@ -52,9 +52,13 @@ package collaboRhythm.plugins.medications.model
 						healthActionModelDetailsProvider.record, healthActionModelDetailsProvider.accountId,
 						initiatedLocally);
 
-				var rehabilitationGloveSessionScheduler:RehabilitationGloveSessionScheduler = new RehabilitationGloveSessionScheduler(_healthActionModelDetailsProvider, medicationAdministration);
-				if (!rehabilitationGloveSessionScheduler.isRehabilitationGloveSessionScheduled())
-					rehabilitationGloveSessionScheduler.scheduleRehabilitationGloveSession(initiatedLocally);
+				var rehabilitationGloveSessionScheduler:RehabilitationGloveSessionScheduler = new RehabilitationGloveSessionScheduler(_healthActionModelDetailsProvider,
+						medicationAdministration);
+				/*if (rehabilitationGloveSessionScheduler.medicationShouldTriggerSession())
+				{
+					if (!rehabilitationGloveSessionScheduler.isRehabilitationGloveSessionScheduled())
+						rehabilitationGloveSessionScheduler.scheduleRehabilitationGloveSession(initiatedLocally);
+				}*/
 
 				return medicationAdministration;
 			}
