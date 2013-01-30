@@ -303,17 +303,17 @@
     
     <organDonar>true</organDonar>
     
-    <recordId>666881b1-c762-4fb2-a917-86621003a35e</recordId>
+    <recordId/>
     
-    <accessKey>gvkyEUgsIyylpTsrejny</accessKey>
+    <accessKey>S9kDGmxBd2Xb7wr9aMLs</accessKey>
     
-    <accessSecret>hORNpesbAQR7v4blwksr</accessSecret>
+    <accessSecret>gjCqXiiJyAd4EH2EelJL</accessSecret>
     
-    <status>Created 110/110 documents, 106/107 relationships</status>
+    <status>Record deleted.</status>
     
-    <demographicsId>b37d9cdf-8f64-4f58-b2c7-09983bcda619</demographicsId>
+    <demographicsId>7294bc65-8426-408b-bd75-fc9bf25d611c</demographicsId>
     
-    <recordSeed>4</recordSeed>
+    <recordSeed>52</recordSeed>
     
     <shareAccountId>pd-jking@records.media.mit.edu</shareAccountId>
     
@@ -327,4 +327,86 @@
     
   </AccountSource>
   
-</dataroot>
+<AccountSource>
+    
+    <accountId>jplum@records.media.mit.edu</accountId>
+    
+    <contactEmail>not_used@localhost</contactEmail>
+    
+    <fullName>John Plum</fullName>
+    
+    <username>jplum</username>
+    
+    <password>example-patient</password>
+    
+    <givenName>John</givenName>
+    
+    <familyName>Plum</familyName>
+    
+    <streetAddress>84 Spruce Street</streetAddress>
+    
+    <postalCode>2215</postalCode>
+    
+    <locality>Boston</locality>
+    
+    <region>Massachusetts</region>
+    
+    <country>US</country>
+    
+    <timeZone>-5GMT</timeZone>
+    
+    <emailPersonal>example-patient@records.media.mit.edu</emailPersonal>
+    
+    <phoneNumberHome>1-555-555-6548</phoneNumberHome>
+    
+    <phoneNumberWork>1-555-555-8654</phoneNumberWork>
+    
+    <instantMessengerName>example-patient@records.media.mit.edu</instantMessengerName>
+    
+    <dateOfBirth>1940-02-24T00:00:00Z</dateOfBirth>
+    
+    <age>70</age>
+    
+    <gender>Male</gender>
+    
+    <ethnicity>White</ethnicity>
+    
+    <language>English</language>
+    
+    <maritalStatus>Widowed</maritalStatus>
+    
+    <employmentStatus>Retired</employmentStatus>
+    
+    <employmentIndustry>Education</employmentIndustry>
+    
+    <occupation>Teacher</occupation>
+    
+    <religion>Protestant</religion>
+    
+    <highestEducation>University</highestEducation>
+    
+    <organDonar>true</organDonar>
+    
+    <recordId/>
+    
+    <accessKey/>
+    
+    <accessSecret/>
+    
+    <status/>
+    
+    <demographicsId>18124489-3b91-45bd-90a9-375a520eca26</demographicsId>
+    
+    <recordSeed/>
+    
+    <shareAccountId>pd-jking-clinician@records.media.mit.edu</shareAccountId>
+    
+    <notes/>
+    
+    <shareRole>Coach</shareRole>
+    
+    <documentsDirectory/>
+    
+    <mode>patient</mode>
+    
+  </AccountSource></dataroot>

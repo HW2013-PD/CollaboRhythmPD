@@ -5,9 +5,9 @@
    <LoadableIndivoDocument>
       <document>
          <Equipment xmlns="http://indivo.org/vocab/xml/documents#">
-            <dateStarted>2009-12-15</dateStarted>
-            <type>Blood Glucose Meter</type>
-            <name xmlns="">FORA D40b</name>
+            <dateStarted>2013-01-01</dateStarted>
+            <type>Motor Tremor Meter</type>
+            <name xmlns="">tremoCup(c)</name>
          </Equipment>
       </document>
       <relatesTo>
@@ -15,16 +15,16 @@
             <LoadableIndivoDocument>
                <document>
                   <HealthActionSchedule xmlns="http://indivo.org/vocab/xml/documents#">
-                     <name xmlns="">FORA D40b</name>
+                     <name xmlns="">tremoCup(c)</name>
                      <scheduledBy>jking@records.media.mit.edu</scheduledBy>
-                     <dateScheduled>2011-07-14T19:13:11Z</dateScheduled>
-                     <dateStart>2011-07-15T13:00:00Z</dateStart>
-                     <dateEnd>2011-07-15T17:00:00Z</dateEnd>
+                     <dateScheduled>2013-01-01T07:13:11Z</dateScheduled>
+                     <dateStart>2013-01-01T22:00:00Z</dateStart>
+                     <dateEnd>2013-01-01T23:00:00Z</dateEnd>
                      <recurrenceRule>
                         <frequency>DAILY</frequency>
                         <count>90</count>
                      </recurrenceRule>
-                     <instructions xmlns="">Use device to record blood glucose. Insert test strip into device and apply a drop of blood.</instructions>
+                     <instructions xmlns="">Use the tremoCup(c) to take the pills</instructions>
                   </HealthActionSchedule>
                </document>
                <relatesTo>
@@ -32,9 +32,67 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-17T14:57:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-01T22:30:00Z</dateReported>
+                              <recurrenceIndex>0</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-01T22:30:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-02T22:30:00Z</dateReported>
+                              <recurrenceIndex>1</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-02T22:30:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-03T22:30:00Z</dateReported>
                               <recurrenceIndex>2</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -44,14 +102,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-17T14:57:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-03T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -61,9 +119,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-18T13:07:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-04T22:30:00Z</dateReported>
                               <recurrenceIndex>3</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -73,14 +131,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-18T13:07:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-04T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -90,9 +148,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-19T13:54:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-05T22:30:00Z</dateReported>
                               <recurrenceIndex>4</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -102,14 +160,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-19T13:54:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-05T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -119,9 +177,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-20T13:52:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-06T22:30:00Z</dateReported>
                               <recurrenceIndex>5</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -131,14 +189,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-20T13:52:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-06T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -148,9 +206,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-21T13:48:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-07T22:30:00Z</dateReported>
                               <recurrenceIndex>6</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -160,14 +218,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-21T13:48:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-07T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -177,9 +235,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-22T14:27:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-08T22:30:00Z</dateReported>
                               <recurrenceIndex>7</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -189,14 +247,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-22T14:27:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-08T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -206,9 +264,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-23T14:24:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-09T22:30:00Z</dateReported>
                               <recurrenceIndex>8</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -218,14 +276,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-23T14:24:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-09T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -235,9 +293,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-24T14:14:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-10T22:30:00Z</dateReported>
                               <recurrenceIndex>9</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -247,14 +305,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-24T14:14:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-10T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>118</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -264,9 +322,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-25T14:15:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-11T22:30:00Z</dateReported>
                               <recurrenceIndex>10</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -276,14 +334,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-25T14:15:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-11T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>125</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>3</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -293,9 +351,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-26T14:59:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-12T22:30:00Z</dateReported>
                               <recurrenceIndex>11</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -305,14 +363,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-26T14:59:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-12T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>131</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -322,9 +380,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-27T13:12:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-13T22:30:00Z</dateReported>
                               <recurrenceIndex>12</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -334,14 +392,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-27T13:12:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-13T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>128</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>3</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -351,9 +409,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-28T15:26:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-14T22:30:00Z</dateReported>
                               <recurrenceIndex>13</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -363,14 +421,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-28T15:26:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-14T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -380,9 +438,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-29T13:47:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-15T22:30:00Z</dateReported>
                               <recurrenceIndex>14</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -392,14 +450,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-29T13:47:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-15T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -409,9 +467,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-30T14:12:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-16T22:30:00Z</dateReported>
                               <recurrenceIndex>15</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -421,14 +479,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-30T14:12:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-16T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>3</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -438,9 +496,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-07-31T14:44:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-17T22:30:00Z</dateReported>
                               <recurrenceIndex>16</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -450,14 +508,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-07-31T14:44:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-17T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -467,9 +525,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-01T14:02:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-18T22:30:00Z</dateReported>
                               <recurrenceIndex>17</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -479,14 +537,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-01T14:02:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-18T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>116</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>3</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -496,9 +554,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-02T13:24:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-19T22:30:00Z</dateReported>
                               <recurrenceIndex>18</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -508,14 +566,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-02T13:24:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-19T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>121</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -525,9 +583,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-03T15:22:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-20T22:30:00Z</dateReported>
                               <recurrenceIndex>19</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -537,14 +595,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-03T15:22:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-20T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>126</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -554,9 +612,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-04T15:00:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-21T22:30:00Z</dateReported>
                               <recurrenceIndex>20</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -566,14 +624,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-04T15:00:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-21T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>115</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -583,9 +641,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-05T13:53:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-22T22:30:00Z</dateReported>
                               <recurrenceIndex>21</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -595,14 +653,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-05T13:53:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-22T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -612,9 +670,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-06T14:00:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-23T22:30:00Z</dateReported>
                               <recurrenceIndex>22</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -624,14 +682,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-06T14:00:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-23T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -641,9 +699,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-07T13:54:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-24T22:30:00Z</dateReported>
                               <recurrenceIndex>23</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -653,14 +711,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-07T13:54:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-24T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>119</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -670,9 +728,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-08T13:14:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-25T22:30:00Z</dateReported>
                               <recurrenceIndex>24</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -682,14 +740,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-08T13:14:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-25T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>129</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -699,9 +757,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-09T13:00:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-26T22:30:00Z</dateReported>
                               <recurrenceIndex>25</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -711,14 +769,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-09T13:00:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-26T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>143</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -728,9 +786,9 @@
                      <LoadableIndivoDocument>
                         <document>
                            <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-10T13:10:00Z</dateReported>
+                              <name xmlns="">tremoCup(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-27T22:30:00Z</dateReported>
                               <recurrenceIndex>26</recurrenceIndex>
                               <adherence>true</adherence>
                            </AdherenceItem>
@@ -740,101 +798,14 @@
                               <LoadableIndivoDocument>
                                  <document>
                                     <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-10T13:10:00Z</dateMeasuredStart>
+                                       <name>tremoCup(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-27T22:30:00Z</dateMeasuredStart>
                                        <result>
-                                          <value>134</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
                                        </result>
-                                       <site>abdomen</site>
-                                    </VitalSign>
-                                 </document>
-                              </LoadableIndivoDocument>
-                           </relation>
-                        </relatesTo>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-11T13:18:00Z</dateReported>
-                              <recurrenceIndex>27</recurrenceIndex>
-                              <adherence>true</adherence>
-                           </AdherenceItem>
-                        </document>
-                        <relatesTo>
-                           <relation type="adherenceResult">
-                              <LoadableIndivoDocument>
-                                 <document>
-                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-11T13:18:00Z</dateMeasuredStart>
-                                       <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
-                                       </result>
-                                       <site>abdomen</site>
-                                    </VitalSign>
-                                 </document>
-                              </LoadableIndivoDocument>
-                           </relation>
-                        </relatesTo>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-12T13:29:00Z</dateReported>
-                              <recurrenceIndex>28</recurrenceIndex>
-                              <adherence>true</adherence>
-                           </AdherenceItem>
-                        </document>
-                        <relatesTo>
-                           <relation type="adherenceResult">
-                              <LoadableIndivoDocument>
-                                 <document>
-                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-12T13:29:00Z</dateMeasuredStart>
-                                       <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
-                                       </result>
-                                       <site>abdomen</site>
-                                    </VitalSign>
-                                 </document>
-                              </LoadableIndivoDocument>
-                           </relation>
-                        </relatesTo>
-                     </LoadableIndivoDocument>
-                     <LoadableIndivoDocument>
-                        <document>
-                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
-                              <name xmlns="">FORA D40b</name>
-                              <reportedBy xmlns="">mbrooks@records.media.mit.edu</reportedBy>
-                              <dateReported>2011-08-13T13:40:00Z</dateReported>
-                              <recurrenceIndex>29</recurrenceIndex>
-                              <adherence>true</adherence>
-                           </AdherenceItem>
-                        </document>
-                        <relatesTo>
-                           <relation type="adherenceResult">
-                              <LoadableIndivoDocument>
-                                 <document>
-                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
-                                       <name>Blood Glucose</name>
-                                       <measuredBy>mbrooks@records.media.mit.edu</measuredBy>
-                                       <dateMeasuredStart>2011-08-13T13:40:00Z</dateMeasuredStart>
-                                       <result>
-                                          <value>110</value>
-                                          <unit abbrev="mg/dL">milligrams per deciliter</unit>
-                                       </result>
-                                       <site>abdomen</site>
+                                       <site>hand</site>
                                     </VitalSign>
                                  </document>
                               </LoadableIndivoDocument>
@@ -845,6 +816,6 @@
                </relatesTo>
             </LoadableIndivoDocument>
          </relation>
-      </relatesTo>
+	  </relatesTo>
    </LoadableIndivoDocument>
 </IndivoDocuments>

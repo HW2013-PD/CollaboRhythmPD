@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndivoDocuments xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                 xmlns:d="http://indivo.org/vocab/xml/documents#">
+   <LoadableIndivoDocument>
+      <document>
+         <Equipment xmlns="http://indivo.org/vocab/xml/documents#">
+            <dateStarted>2013-01-01</dateStarted>
+            <type>Motor Bradykinesia Meter</type>
+            <name xmlns="">bradyGlove(c)</name>
+         </Equipment>
+      </document>
+      <relatesTo>
+         <relation type="scheduleItem">
+            <LoadableIndivoDocument>
+               <document>
+                  <HealthActionSchedule xmlns="http://indivo.org/vocab/xml/documents#">
+                     <name xmlns="">bradyGlove(c)</name>
+                     <scheduledBy>jking@records.media.mit.edu</scheduledBy>
+                     <dateScheduled>2013-01-01T07:13:11Z</dateScheduled>
+                     <dateStart>2013-01-01T16:00:00Z</dateStart>
+                     <dateEnd>2013-01-01T17:00:00Z</dateEnd>
+                     <recurrenceRule>
+                        <frequency>DAILY</frequency>
+                        <count>180</count>
+                     </recurrenceRule>
+                     <instructions xmlns="">Use the bradyGlove(c) once per day</instructions>
+                  </HealthActionSchedule>
+               </document>
+               <relatesTo>
+                  <relation type="adherenceItem">
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-01T16:00:00Z</dateReported>
+                              <recurrenceIndex>0</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-01T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-02T16:00:00Z</dateReported>
+                              <recurrenceIndex>1</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-02T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-03T16:00:00Z</dateReported>
+                              <recurrenceIndex>2</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-03T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-04T16:00:00Z</dateReported>
+                              <recurrenceIndex>3</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-04T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-05T16:00:00Z</dateReported>
+                              <recurrenceIndex>4</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-05T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-06T16:00:00Z</dateReported>
+                              <recurrenceIndex>5</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-06T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-07T16:00:00Z</dateReported>
+                              <recurrenceIndex>6</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-07T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-08T16:00:00Z</dateReported>
+                              <recurrenceIndex>7</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-08T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-09T16:00:00Z</dateReported>
+                              <recurrenceIndex>8</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-09T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-10T16:00:00Z</dateReported>
+                              <recurrenceIndex>9</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-10T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-11T16:00:00Z</dateReported>
+                              <recurrenceIndex>10</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-11T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-12T16:00:00Z</dateReported>
+                              <recurrenceIndex>11</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-12T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>3</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-13T16:00:00Z</dateReported>
+                              <recurrenceIndex>12</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-13T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-14T16:00:00Z</dateReported>
+                              <recurrenceIndex>13</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-14T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-15T16:00:00Z</dateReported>
+                              <recurrenceIndex>14</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-15T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>3</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-16T16:00:00Z</dateReported>
+                              <recurrenceIndex>15</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-16T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>3</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-17T16:00:00Z</dateReported>
+                              <recurrenceIndex>16</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-17T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-18T16:00:00Z</dateReported>
+                              <recurrenceIndex>17</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-18T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-19T16:00:00Z</dateReported>
+                              <recurrenceIndex>18</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-19T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-20T16:00:00Z</dateReported>
+                              <recurrenceIndex>19</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-20T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>3</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-21T16:00:00Z</dateReported>
+                              <recurrenceIndex>20</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-21T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-22T16:00:00Z</dateReported>
+                              <recurrenceIndex>21</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-22T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-23T16:00:00Z</dateReported>
+                              <recurrenceIndex>22</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-23T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>2</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-24T16:00:00Z</dateReported>
+                              <recurrenceIndex>23</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-24T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-25T16:00:00Z</dateReported>
+                              <recurrenceIndex>24</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-25T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-26T16:00:00Z</dateReported>
+                              <recurrenceIndex>25</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-26T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                     <LoadableIndivoDocument>
+                        <document>
+                           <AdherenceItem xmlns="http://indivo.org/vocab/xml/documents#">
+                              <name xmlns="">bradyGlove(c)</name>
+                              <reportedBy xmlns="">jplum@records.media.mit.edu</reportedBy>
+                              <dateReported>2013-01-27T16:00:00Z</dateReported>
+                              <recurrenceIndex>26</recurrenceIndex>
+                              <adherence>true</adherence>
+                           </AdherenceItem>
+                        </document>
+                        <relatesTo>
+                           <relation type="adherenceResult">
+                              <LoadableIndivoDocument>
+                                 <document>
+                                    <VitalSign xmlns="http://indivo.org/vocab/xml/documents#">
+                                       <name>bradyGlove(c)</name>
+                                       <measuredBy>jplum@records.media.mit.edu</measuredBy>
+                                       <dateMeasuredStart>2013-01-27T16:00:00Z</dateMeasuredStart>
+                                       <result>
+                                          <value>1</value>
+                                          <unit abbrev="UPDRS score">UPDRS score</unit>
+                                       </result>
+                                       <site>hand</site>
+                                    </VitalSign>
+                                 </document>
+                              </LoadableIndivoDocument>
+                           </relation>
+                        </relatesTo>
+                     </LoadableIndivoDocument>
+                  </relation>
+               </relatesTo>
+            </LoadableIndivoDocument>
+         </relation>
+	  </relatesTo>
+   </LoadableIndivoDocument>
+</IndivoDocuments>

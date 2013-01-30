@@ -18,7 +18,7 @@
 <settings xmlns="http://collaborhythm.org/application/settings">
 	<mode>patient</mode>
 	<indivoServerBaseURL>https://indivo-demo.media.mit.edu:8000</indivoServerBaseURL>
-	<username>pd-jplum-patient</username>
+	<username>jplum</username>
 	<password>example-patient</password>
 	<clinicianTeamMembers>
 		<clinicianTeamMember>pd-jking-clinician@records.media.mit.edu</clinicianTeamMember>
@@ -29,7 +29,7 @@
 	<useSyslogTarget>false</useSyslogTarget>
 	<useGoogleAnalytics>false</useGoogleAnalytics>
 	<logSourceIdentifier>CollaboRhythmDefault</logSourceIdentifier>
-	<rtmpBaseURI>rtmfp://adrenaline.media.mit.edu</rtmpBaseURI>
+	<rtmpBaseURI>rtmfp://adenosine.media.mit.edu</rtmpBaseURI>
 	<debuggingToolsEnabled>true</debuggingToolsEnabled>
 	<oauthChromeConsumerKey>collaboRhythmChrome</oauthChromeConsumerKey>
 	<oauthChromeConsumerSecret>collaboRhythmChrome_secret93452</oauthChromeConsumerSecret>
@@ -63,15 +63,15 @@
 		<pluginSearchPath>$APPLICATION_DIRECTORY$/plugins/HIVPluginModule.swf</pluginSearchPath>
 		<pluginSearchPath>$APPLICATION_DIRECTORY$/plugins</pluginSearchPath>
 	</pluginSearchPaths>
-	<demoModeEnabled>false</demoModeEnabled>
+	<demoModeEnabled>true</demoModeEnabled>
 	<adherenceVoidingEnabled>true</adherenceVoidingEnabled>
 	<includeAdherenceVoidingMenuItem>true</includeAdherenceVoidingMenuItem>
-	<targetDate>2011-08-14T10:40:00-5:00</targetDate>
+	<targetDate>2013-01-29T15:00:00Z</targetDate>
 	<demoDatePresets>
-		<demoDatePreset>2011-07-14T09:10:00-5:00</demoDatePreset>
-		<demoDatePreset>2011-07-17T00:20:00Z</demoDatePreset>
-		<demoDatePreset>2011-07-26T09:20:00-5:00</demoDatePreset>
-		<demoDatePreset>2011-08-13T10:40:00-5:00</demoDatePreset>
+		<demoDatePreset>2013-01-01T00:00:00-5:00</demoDatePreset>
+		<demoDatePreset>2013-01-01T00:00:00-5:00</demoDatePreset>
+		<demoDatePreset>2013-01-01T00:00:00-5:00</demoDatePreset>
+		<demoDatePreset>2013-01-01T00:00:00-5:00</demoDatePreset>
 	</demoDatePresets>
 	<appGroups>
 		<appGroup id="mainWidgets">
